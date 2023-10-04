@@ -1,0 +1,376 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Monticello</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&family=Open+Sans&family=Source+Sans+3&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css">
+    <link rel="stylesheet" href="./css/main.css">
+    <script src="https://polyfill.io/v3/polyfill.min.js?features=default"></script>
+    <link rel="shortcut icon" type="image/png" href="./img/favicon.png" />
+</head>
+
+<body>
+    <header class="header">
+        <div class="flex container">
+
+            <div>
+                <img class="logo" src="./img/header/Logo.png" alt="logo">
+            </div>
+
+            <div class="menu">
+                <input type="checkbox" class="checkbox">
+                <div class="check_wrapper">
+                    <div class="check"></div>
+                    <div class="check"></div>
+                    <div class="check"></div>
+                </div>
+
+                <div class="header_nav  menu_all">
+                    <ul class="header_ul flex_menu" id="burger-menu">
+                        <li class="header__li">
+                            <a class="header__link" href="#">ABOUT US</a>
+                        </li>
+                        <li class="header__li">
+                            <a class="header__link" href="#">PROJECTS</a>
+                        </li>
+                        <li class="header__li">
+                            <a class="header__link" href="#">NEWS</a>
+                        </li>
+                        <li class="header__li">
+                            <a class="header__link" href="#">CONTACTS</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+
+
+            <ul class="social flex">
+                <li class="social__item">
+                    <a href="#" class="social-link">
+                        <svg width="10" height="16" class="social__svg">
+                            <use xlink:href="./img/sprite/sprite.svg#facebook" class="social-icon"></use>
+                        </svg>
+                    </a>
+                </li>
+                <li class="social__item">
+                    <a href="#" class="social-link">
+                        <svg width="16" height="14" class="social__svg">
+                            <use xlink:href="./img/sprite/sprite.svg#twitter" class="social-icon"></use>
+                        </svg>
+                    </a>
+                </li>
+                <li class="social__item">
+                    <a href="#" class="social-link">
+                        <svg width="14" height="14" class="social__svg">
+                            <use xlink:href="./img/sprite/sprite.svg#instagram" class="social-icon"></use>
+                        </svg>
+                    </a>
+                </li>
+            </ul>
+        </div>
+        <div class="first-screen container">
+            <div class="slider">
+                <div class="header__info container first-screen__content">
+                    <h2 class="header__title">SIMPLE & MODERN</h2>
+                    <p class="header__text">WE MAKE THE WORLD BEAUTIFUL EVERYDAY</p>
+                </div>
+                <div class="header__info container ">
+                    <h2 class="header__title">SUSTAINABLE & INNOVATIVE</h2>
+                    <p class="header__text">COLLABORATIVE APPROACH THAT HELPS TO UNLOCK THE FULL POTENCIAL OF AI</p>
+                </div>
+                <div class="header__info container ">
+                    <h2 class="header__title">EXCELLENT CUSTOMER SERVICE</h2>
+                    <p class="header__text">WE MAKE THE WORLD BEAUTIFUL EVERYDAY</p>
+                </div>
+                <div class="header__info container ">
+                    <h2 class="header__title">SIMPLE & MODERN</h2>
+                    <p class="header__text">WE MAKE THE WORLD BEAUTIFUL EVERYDAY</p>
+                </div>
+                <div class="header__info container">
+                    <h2 class="header__title">SIMPLE & MODERN</h2>
+                    <p class="header__text">WE MAKE THE WORLD BEAUTIFUL EVERYDAY</p>
+                </div>
+            </div>
+            <div class="scroll scrollto">
+                <a href="#news" class="scroll__link">
+                    <img src="./img/arrow.png" alt="arrow">
+                    <!--- <svg width="9" height="6">
+                        <use xlink:href="./img/arrow.png#arrow_down" class="scroll__icon"></use>
+                    </svg>-->
+                </a>
+            </div>
+
+        </div>
+    </header>
+    <main class="main">
+        <section class="activities container">
+            
+            <h3 class="activities__title main__title">
+                WHAT WE DO
+            </h3>
+            <div class="activities__block flex">
+                <div class="activities__square-blue">
+                    <img src="./img/whatwedo/building1.png" alt="building">
+                </div>
+                <div class="activities__passage">
+                    <h4 class="activities__passage_uppertitle">ONE WORLD</h4>
+                    <h3 class="activities__passage_title main__title">TRADE CENTER</h3>
+                    <p class="text">Increasing prosperity in our lives can be accomplished by having the right frame
+                        of mind. The
+                        truth is, our thoughts are very powerful.</p>
+                    <button class="btn" onclick="window.location.href = '#';">MORE DETAILS</button>
+                    <div class="activities__flex">
+                        <img src="./img/whatwedo/map.svg" alt="map tag">
+                        <p class="activities__address"> New York City, United States - 1776 feet </p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="activities__block flex ">
+                <div class="activities__passage">
+                    <h4 class="activities__passage_uppertitle">INTERNATIONAL</h4>
+                    <h3 class="activities__passage_title main__title">COMMERCE CENTRE</h3>
+                    <p class="text">Successful businesses have many things in common, today we’ll look at the big
+                        ‘R’ of recognition and how a digital advertising network may help.</p>
+                    <button class="btn" onclick="window.location.href = '#';">MORE DETAILS</button>
+                    <div class="activities__flex">
+                        <img src="./img/whatwedo/map.svg" alt="map tag">
+                        <p class="activities__address"> Hong Kong - 1588 feet</p>
+                    </div>
+                </div>
+                <div class="activities__square-violet">
+                    <img src="./img/whatwedo/building2.png" alt="building">
+                </div>
+            </div>
+        </section>
+        <section class="news" id="news">
+            <div class="container">
+                <h2 class="news__title">LATEST NEWS</h2>
+                
+                    <div class="cards news__slider">
+                        <div class="card">
+                            <div class="container__cards">
+                                <div class="card__pic">
+                                    <img src="./img/latestnews/window.svg" alt="window">
+                                </div>
+                                <div class="card__text">
+                                    <h4 class="card__text_title">SEE THE UNMATCHED BEAUTY OF THE GREAT.</h4>
+                                    <p class="text">Free directories: directories are perfect for customers that are
+                                        searching for...</p>
+                                    <div class="flex">
+                                        <img class="card__img" src="./img/latestnews/icon1.svg" alt="photo">
+                                        <div>
+                                            <p class="card__name">ALJA BRUN</p>
+                                            <p class="card__date">20 Jan 2020</p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="card">
+                            <div class="container__cards">
+                                <div class="card__pic">
+                                    <img src="./img/latestnews/facade.svg" alt="facade">
+                                </div>
+                                <div class="card__text">
+                                    <h4 class="card__text_title">EFFECTIVE ADVERTISING POINTERS.</h4>
+                                    <p class="text">Having a home based business is a wonderful asset to your life...
+                                    </p>
+                                    <div class="flex">
+                                        <img class="card__img" src="./img/latestnews/icon2.svg" alt="photo">
+                                        <div>
+                                            <p class="card__name">DOMINIC FREEMAN</p>
+                                            <p class="card__date">13 Dec 2019</p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="card">
+                            <div class="container__cards">
+                                <div class="card__pic">
+                                    <img src="./img/latestnews/roundbuilding.svg" alt="building">
+                                </div>
+                                <div class="card__text">
+                                    <h4 class="card__text_title">HYPNOTIZE YOURSELF INTO THE GHOST. DESIGN THAT INSPIRES</h4>
+                                    <p class="text">There are many things that are important to catalog design...</p>
+                                    <div class="flex">
+                                        <img class="card__img" src="./img/latestnews/icon3.svg" alt="photo">
+                                        <div>
+                                            <p class="card__name">ALICE WARD</p>
+                                            <p class="card__date">30 Nov 2019</p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="card">
+                            <div class="container__cards">
+                                <div class="card__pic">
+                                    <img src="./img/latestnews/window.svg" alt="window">
+                                </div>
+                                <div class="card__text">
+                                    <h4 class="card__text_title">SEE THE UNMATCHED BEAUTY OF THE GREAT.</h4>
+                                    <p class="text">Free directories: directories are perfect for customers that are
+                                        searching for...</p>
+                                    <div class="flex">
+                                        <img class="card__img" src="./img/latestnews/icon1.svg" alt="photo">
+                                        <div>
+                                            <p class="card__name">ALJA BRUN</p>
+                                            <p class="card__date">20 Jan 2020</p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="card">
+                            <div class="container__cards">
+                                <div class="card__pic">
+                                    <img src="./img/latestnews/facade.svg" alt="facade">
+                                </div>
+                                <div class="card__text">
+                                    <h4 class="card__text_title">EFFECTIVE ADVERTISING POINTERS.</h4>
+                                    <p class="text">Having a home based business is a wonderful asset to your life...
+                                    </p>
+                                    <div class="flex">
+                                        <img class="card__img" src="./img/latestnews/icon2.svg" alt="photo">
+                                        <div>
+                                            <p class="card__name">DOMINIC FREEMAN</p>
+                                            <p class="card__date">13 Dec 2019</p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                    </div>
+                
+            </div>
+        </section>
+
+        <section class="gallery container">
+            <h3 class="activities__title main__title">
+                GALLERY
+            </h3>
+            <div class="gallery__grid">
+                <div class="g-item_qdr">
+                    <a data-fslightbox href="./img/gallery/gallery.img1.png">
+                        <img src="./img/gallery/gallery.img1.png" alt="building">
+                    </a>
+                </div>
+                <div class="g-item_span2">
+                    <a data-fslightbox href="./img/gallery/gallery.img2.png">
+                        <img src="./img/gallery/gallery.img2.png" alt="building">
+                    </a>
+                </div>
+                <div class="g-item_span2">
+                    <a data-fslightbox href="./img/gallery/gallery.img3.png">
+                        <img src="./img/gallery/gallery.img3.png" alt="building">
+                    </a>
+                </div>
+                <div class="g-item_span2">
+                    <a data-fslightbox href="./img/gallery/gallery.img4.png">
+                        <img src="./img/gallery/gallery.img4.png" alt="building">
+                    </a>
+                </div>
+                <div class="g-item_span2">
+                    <a data-fslightbox href="./img/gallery/gallery.img5.png">
+                        <img src="./img/gallery/gallery.img5.png" alt="building">
+                    </a>
+                </div>
+            </div >
+            <div class="g__btn">
+                <button class="btn" onclick="window.location.href = '#';">MORE DETAILS</button>
+            </div>
+        </section>
+
+        <section class="map" id="map" style="width:100vw; height:100vh">
+        </section>
+
+    </main>
+    <footer class="footer">
+        <div class="contacts" id="contacts">
+            <h2 class="main__title contacts__title">GET IN TOUCH</h2>
+            <div class="flex">
+                <div class="contacts__info">
+                    <div class="contacts__text">
+                        <img src="./img/footer/map.icon.png" alt="map-pin" class="contacts__icon">
+                        <p class="contacts__details">91 Nolan Extensions Suite 670</p>
+                    </div>
+                    <div class="contacts__text">
+                        <img src="./img/footer/phone.icon.png" alt="phone" class="contacts__icon">
+                        <p class="contacts__details">+001 356-868-2454</p>
+                    </div>
+                    <div class="contacts__text">
+                        <img src="./img/footer/email.icon.png" alt="inbox" class="contacts__icon">
+                        <p class="contacts__details">montichello@service.com</p>
+                    </div>
+                    <div class="contacts__text">
+                        <img src="./img/footer/hours.icon.png" alt="clock" class="contacts__icon">
+                        <p class="contacts__details">From 07:05AM to 19:30PM </p>
+                    </div>
+                </div>
+                <form class="contacts__form">
+                    <input type="text" class="input" placeholder="Name">
+                    <input type="email" class="input" placeholder="Email">
+                    <div class="btn-submit">
+                        <button type="submit" class="btn">SUBMIT</button>
+                    </div>
+                </form>
+            </div>
+        </div>
+        <div class="container flex footer__block">
+            <div>
+                <img class="logo" src="./img/header/Logo.png" alt="logo">
+                <p class="footer__rights">Copyrights © 2020 Montichello</p>
+            </div>
+            <div>
+                <ul class="social flex">
+                    <li class="social__item">
+                        <a href="#" class="social-link">
+                            <svg width="10" height="16" class="social__svg">
+                                <use xlink:href="./img/sprite/sprite.svg#facebook" class="social-icon"></use>
+                            </svg>
+                        </a>
+                    </li>
+                    <li class="social__item">
+                        <a href="#" class="social-link">
+                            <svg width="16" height="14" class="social__svg">
+                                <use xlink:href="./img/sprite/sprite.svg#twitter" class="social-icon"></use>
+                            </svg>
+                        </a>
+                    </li>
+                    <li class="social__item">
+                        <a href="#" class="social-link">
+                            <svg width="14" height="14" class="social__svg">
+                                <use xlink:href="./img/sprite/sprite.svg#instagram" class="social-icon"></use>
+                            </svg>
+                        </a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </footer>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.0/jquery.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script>
+    <script src="./js/slider.js"></script>
+    <script src="./js/scroll.js"></script>
+    <script src="./js/fslightbox.js"></script>
+    <script src="./js/gallery.js"></script>
+    <script src="./js/maps.js"></script>
+    <script src="./js/burger.js"></script>
+    <script async
+        src="https://maps.googleapis.com/maps/api/js?key=AIzaSyA3-qp7WQ4AkGPS6FLBXE2vr5Ndw9iZY1c&callback=initMap">
+        </script>
+</body>
+
+</html>
